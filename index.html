@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header class="header">
+        <div class="header__body">
+            <div class="nav__logo-box">
+                <img class="nav__logo" src="./img/logo__canada.png" alt="nope">
+            </div>
+        
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Coments</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        
+
+        <div class="main__fakts-blok">
+            
+            <button class="button_collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                1
+            </button>
+
+                <div class="component-1">
+                    
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        
+                            <div class="card" style="width: 18rem;">
+                                <img src="./img/img.park.jpg" class="card-img-top" alt="nope">
+                                <div class="card-body">
+                                    <h5 class="card-title">Одн з найкрасивіших туристичних маршрутів в Канаді</h5>
+                                    <p class="card-text">Він знаходится в Quetico Provincial Park</p>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Інформація
+                                    </button>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Загальна інфорація про парк</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Провінційний парк Кветіко - великий парк дикої природи в північно-західному Онтаріо, Канада, відомий своїм чудовим веслуванням на каное та риболовлею. Парк площею 4 760 км2 (1 180 000 акрів) розділяє свій південний кордон з дикою природою району каное Boundary Waters штату Міннесота, яка є частиною більшого національного лісу Superior. Ці великі парки дикої природи часто разом називають прикордонними водами або країною Кветіко-Суперіор.
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                                            <button type="button" class="btn btn-primary">Гарна інфа</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/6d7cb93199.js" crossorigin="anonymous"></script>
+</body>
+</html>
